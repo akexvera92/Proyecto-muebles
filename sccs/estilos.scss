@@ -1,0 +1,156 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../libs/bootstrap/scss/bootstrap";
+// Then add additional custom code here
+
+
+.encabezado {
+    height: 124px;
+    background:rgb(187, 252, 195) 400px;
+    border:2px solid  rgb(199, 147, 119) ;
+    
+}
+.text1{
+    font-family: Open;
+    text-align: right;
+}
+.ID1{
+    margin-top: 20px;
+  text-align:center;
+    font-family:CANDAL;
+    font-weight: 900;  
+}
+.ID{
+   text-align: center;
+    font-family:CANDAL;
+
+}
+
+.logo{
+    
+    border-right:2px solid  rgb(199, 147, 119) ;
+}
+.segundoencabezado {
+    background:rgb(187, 252, 195) 400px;
+    border-left:2px solid  rgb(199, 147, 119) ;
+    border-bottom:2px solid  rgb(199, 147, 119) ;
+    border-right:2px solid  rgb(199, 147, 119) ;
+}
+.primerproducto{
+    margin-left: 25px;
+    margin-top: 25px;
+    border:2px solid  rgb(199, 147, 119) ;
+    margin-right: 25px;  
+}
+
+.segundoproducto{
+    margin-left: 25px;
+    margin-top: 25px;
+    border:2px solid  rgb(199, 147, 119) ;
+    margin-right: 25px;
+}
+
+.textoproducto{
+    text-align: center;
+    font-family:CANDAL;
+    margin-top: 75px;
+}
+.textosegundo{
+    display: inline;
+}
+
+
+.text1{
+    font-family: Open;
+    text-align: right;
+}
+.ID1{
+    margin-top: 20px;
+    text-align:center;
+    font-family:CANDAL;
+    font-weight: 900;  
+}
+.ppp{
+    height: 500px;
+}
+.ID{
+    text-align: center;
+     font-family:CANDAL;
+ }
+.N1{
+    text-align: center;
+    font-family: Candal;
+    font-weight:900;
+}
+.N2{
+    text-align: center;
+    font-family: Candal;
+}
+.N3{
+    text-align: right;
+    font-family: Candal;
+}
+.fwi{
+    float: right;
+}
+.pie {
+    background: rgb(187, 252, 195) 700px;
+    border:7px solid rgb(199, 147, 119);
+}
+.N4 {
+    text-align: center;
+    font-family: OpenSans;
+}
+.tenkiu{
+    margin: 50px;
+    text-align: center;
+    font-family: Candal;
+}
+.hello{
+    text-align: center;
+    font-family: Candal;
+}
+.botom{
+    font-family: Candal;
+    background: rgb(255, 255, 255) 700px;
+    border:3px solid rgb(199, 147, 119);
+}
+.color{
+    height: 100px;
+    width: 100px;
+}
+.btn-1{ 
+    border-bottom: 1px solid rgba(6,6,6,0.9);
+}
+
+.N4{
+    text-align: center;
+    font-family: OpenSans;
+}
+.botones{
+    font-family: Candal;
+    background-color:rgb(199,147,119 );
+    border: 2px solid black;
+    width: 120px;
+}
+
+.menu{
+    background-color: #94512c;
+}
+.treslineas{
+    margin-top:25px ;
+    color:#94512c ;
+}
+.aside{
+    display: inline-block;
+    width: 300px;
+    min-height: 400px;
+    background-color: #B8FCC3; 
+}
+.footer{
+    border: 2px solid #94512c;
+}
